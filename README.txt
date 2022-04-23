@@ -1,0 +1,1 @@
+In order to play Toxic Amber, simply double click on the main.py file

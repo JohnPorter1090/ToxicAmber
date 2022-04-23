@@ -3,10 +3,13 @@ ToxicAmber
 Created by PixelPython
 """
 
+
+
 from numpy import full
 import pygame
 import os
 
+print("Opening ToxicAmber...")
 
 default_display = pygame.SCALED
 fullscreen_display = pygame.SCALED | pygame.FULLSCREEN
