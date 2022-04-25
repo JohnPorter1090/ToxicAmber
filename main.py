@@ -1,6 +1,10 @@
 """
 ToxicAmber
-Created by PixelPython
+Created by AmberPixel
+
+Credits
+blackSnow by airtone (c) copyright 2021 Licensed under a Creative Commons Attribution (3.0) license. http://dig.ccmixter.org/files/airtone/63513
+PixelPlanets by Deep-Fold
 """
 
 
@@ -23,6 +27,10 @@ pygame.display.set_caption("ToxicAmber")
 BLACK = (0, 0, 0)
 
 
+
+pygame.mixer.init()
+blackSnow_by_airtone = pygame.mixer.music.load(os.path.join('audio', 'blacksnow.mp3')) #plays music
+pygame.mixer.music.play(-1)
 
 
 
